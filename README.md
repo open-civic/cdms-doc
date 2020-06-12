@@ -5,4 +5,4 @@ links to the project.
 
 - [Architecture Overview](ArchitectureOfUDMS.md)
 - [Design Principles](DesignPrinciples.md)
-- [Implementation (Root Repo)](../udms/README.md)
+- [Implementation (Root Repo)](https://github.com/open-civic/udms)
