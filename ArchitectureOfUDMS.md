@@ -372,7 +372,7 @@ Instead of constructing and annotating JPA entity manually, use automated tool!
   - Open `Tool Windows` -> `Pesistence`
   - Choose the persistence unit, right click
   - Choose `Generate Persistence Mapping` -> `By Database Schema`
-  - ... [Implementation details on JPA conversion](../udms/dao/README.md#Tool-support-for-converting-DB-schema-to-JPA-entities)  
+  - ... [Implementation details on JPA conversion](https://github.com/open-civic/udms/blob/master/dao/README.md#Tool-support-for-converting-DB-schema-to-JPA-entities)  
 
 ## GraphQL
 ### Common functionality
@@ -492,24 +492,24 @@ categories over time.
 #### localhost
 - UDMS can be developed and deployed in localhost, with containerized Redis, Mongo, Elasticsearch & MySQL.
 - UDMS microservices do not have to be containerized or deployed to K8S, for rapid local code development.
-- [Setup in localhost](../udms/README.md#setup-process-for-localhost)
+- [Setup in localhost](https://github.com/open-civic/udms#setup-process-for-localhost)
 
 #### Minikube
 - Minikube is "The data center in your laptop"!
 - Minikube deployment provides a full production-like environment, including auto-scaling and load balancing, to test 
 and verify UDMS Cloud in its intended setting.
-- [Deployment to Minikube](../udms/README.md#deployment-to-minikube)
+- [Deployment to Minikube](https://github.com/open-civic/udms#deployment-to-minikube)
    
 #### Google Cloud
 - gke-disk is specified as a storage class: 
 [storageclass.yaml](https://github.com/open-civic/udms/blob/master/z-kube/gke/storageclass.yaml)
-- [Deployment to Azure (AKS)](../udms/README.md#deployment-to-gcp-gke)
+- [Deployment to Google Cloud](https://github.com/open-civic/udms#deployment-to-google-cloud)
 
 #### Azure
 - AzureSQL is set up as an Azure specific datasource.
 - Azure-disk is specified as a storage class: 
 [storageclass.yaml](https://github.com/open-civic/udms/blob/master/z-kube/aks/storageclass.yaml)
-- [Deployment to Azure (AKS)](../udms/README.md#deployment-to-azure-aks)
+- [Deployment to Azure](https://github.com/open-civic/udms#deployment-to-azure)
 
 ### Jenkins integration
 - TBD
