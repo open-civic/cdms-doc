@@ -97,7 +97,7 @@ making progress and decisions.
 We also want to develop a **unified** model (the U in UDMS) in application and data management, where we can leverage 
 and integrate various technologies and application/data platforms, in anticipating and embracing the technological 
 diversity (and its strength) than in reaction to unmanaged fragmentation. UDMS starts mainly as a Java (or JVM-based) 
-project, but aimed to go well beyond being Java-cetric.
+project, but aimed to go well beyond being Java-centric.
 
 Our objective and experience align well with Spring Framework! While being a time-tested and mature technology, whose modular 
 and lightweight design philosophy resonates with ours, Spring remains progressive and innovative. The latest Spring Boot 
@@ -106,14 +106,14 @@ simplifies Spring! Spring is also a rich eco-system that encompasses the full-sp
 an integrated and coherent way. We feel that it is a sensible and safe bet to start every our technical decision based 
 on a default Spring integration, do it "Spring way"!
 
-The project inevitably evolves into an exploration that covers full gamut of Spring, including JPA/Spring Data for data 
+The project inevitably evolved into an exploration that covers full gamut of Spring, including JPA/Spring Data for data 
 access, Spring AOP for modular code development, Caching, Spring Security, Spring Session, and Spring Cloud for service 
 discovery and scalability.
 
 GraphQL was discovered along the way, as a notable exception - a technology that is not Java centric and is not yet 
 natively integrated with Spring. But we feel that GraphQL is a promising nascent technology, which evolves Web Service 
 and Restful paradigm. We feel that GraphQL addresses many inefficiencies and pain points associated with Restful 
-service and UI development, particularly relevant for OpenCivic products that are often required to deal with large sets 
+service and UI development, particularly relevant in OpenCivic domain that is expected to deal with large sets 
 of diverse data.
 
 We also drew inspiration from modern UI frameworks like Angular/React in their event handling and reactive data-binding, 
@@ -584,7 +584,7 @@ to interact and to collaborate, why can't a Java microservice co-exist and colla
 component? It feels totally natural in UDMS! And, it can unlock more resource, developer talents and innovation of the 
 web today and tomorrow. Kubernetes can serve as a true foundation to enable such potentials! 
 
-Such an unified and higher-level view of a computing platform also yields many other tangible benefits, for instance, a 
+Such a unified and higher-level view of a computing platform also yields many other tangible benefits, for instance, a 
 local deployment (in Minikube) that resembles a genuine production environment (data-center in your laptop!). It is 
 obvious the value to have such an environment in development and testing, which was beyond our reach until now.
 
